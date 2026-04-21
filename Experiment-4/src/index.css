@@ -1,0 +1,21 @@
+
+body{
+    text-align: center;
+    background-color: rgb(207, 234, 243);
+    font-family: sans-serif;
+}
+
+
+.student-card{
+    background-color: #fff;
+    width: 300px;
+    margin: 1.2rem auto;
+    padding: 0.7rem;
+    box-shadow: 2px 2px 5px 3px darkblue;
+    border-radius: 10px;
+}
+
+
+.student-card h2{
+    color: crimson;
+}
