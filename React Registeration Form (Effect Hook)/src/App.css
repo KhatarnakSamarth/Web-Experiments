@@ -1,0 +1,87 @@
+
+
+.app-container {
+  min-height: 91vh;
+  height: 100%;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.form-card {
+  width: 400px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+form *{
+    outline-color: green;
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  box-sizing: border-box;
+}
+
+.error-text {
+  color: red;
+  margin-top: 0px;
+  text-align: left;
+}
+
+.api-error {
+  text-align: center;
+}
+
+.success-text {
+  color: green;
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.api-section {
+  margin-top: 30px;
+}
+
+.api-title {
+  text-align: center;
+}
+
+.loading-text {
+  text-align: center;
+}
+
+.user-card {
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
