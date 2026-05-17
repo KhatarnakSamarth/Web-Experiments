@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 7: Responsive Web Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"
+        defer></script>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+    <header class="text-white text-center py-4 bg-primary">
+        <h1 class="m-0">My Website</h1>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand" href="#">Website</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link text-light" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-light" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link text-light" href="#">Services</a></li>
+                    <li class="nav-item"><a class="nav-link text-light" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5 flex-grow-1">
+        <div class="row">
+            <div class="col-md-6 mb-4 px-4">
+                <h3 class="mb-3">Column 1</h3>
+                <p>This is the first column. On small devices the column occupies full width, while on medium and large
+                    devices it occupies half width using Bootstrap grid classes.</p>
+            </div>
+
+            <div class="col-md-6 mb-4 px-4">
+                <h3 class="mb-3">Column 2</h3>
+                <p>This is the second column. Bootstrap grid system helps to create responsive layout.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3 mt-auto">
+        <div class="container">
+            <p class="mb-0">Copyright &copy; 2026 My Website</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
