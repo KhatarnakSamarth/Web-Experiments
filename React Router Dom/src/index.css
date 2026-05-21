@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+/* Dark, centered navigation bar wrapper */
+.navbar {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  background-color: #1a1c29; 
+  padding: 20px 0;
+  gap: 30px;
+  width: 100%;
+}
+
+/* Styling the navigation links */
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Centering the main content page text */
+.content {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px; 
+}
+
+.content h2 {
+  font-size: 45px; 
+  font-weight: normal;
+  color: #000000;
+} 
