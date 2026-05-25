@@ -7,7 +7,7 @@ const RegisterationForm = () => {
         email: "",
         password: ""
     });
-    const API_URL = 'I Copied Somebodies Code'
+    const API_URL = 'Your API Key Here'
     // Error State
     const [errors, setErrors] = useState({});
     // Success Message State
